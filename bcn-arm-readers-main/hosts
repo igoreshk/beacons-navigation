@@ -10,8 +10,8 @@ hostnames
 [beacons-dev]
 hostnames
 [beacons-dev:vars]
-ansible_ssh_pass=0micr0n3b 
-ansible_ssh_user=pi 
+ansible_ssh_pass=*** 
+ansible_ssh_user=*** 
 ansible_become=yes 
 ansible_become_method=sudo
  
@@ -36,8 +36,8 @@ ansible_ssh_user=user
 [beacons-test]
 hostnames
 [beacons-test:vars]
-ansible_ssh_pass=0micr0n3b
-ansible_ssh_user=pi
+ansible_ssh_pass=***
+ansible_ssh_user=***
 ansible_become=yes
 ansible_become_method=sudo
 KAFKA_SERVER_IP=ip
